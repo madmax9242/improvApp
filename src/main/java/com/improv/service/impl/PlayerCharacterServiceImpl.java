@@ -31,4 +31,10 @@ public class PlayerCharacterServiceImpl implements PlayerCharacterService {
 		
 	}
 
+	@Override
+	public void deleteCharacterByName(String name) {
+		charDao.deletePlayerCharacterByName(name);
+		
+	}
+
 }

@@ -38,6 +38,11 @@ public class PlayerCharacterController {
 		pcs.deleteCharacter(id);
 	}
 	
+	@DeleteMapping("/character/{name}")
+	public void deleteCharacterByName(@PathVariable String name) {
+		pcs.deleteCharacterByName(name);
+	}
+	
 	@GetMapping("/character/data")
 	public void makeSampleCharacters() {
 		pcs.createCharacter(new PlayerCharacter(1, "Knight"));

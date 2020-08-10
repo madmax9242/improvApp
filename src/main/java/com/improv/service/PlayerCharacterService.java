@@ -9,5 +9,6 @@ public interface PlayerCharacterService {
 	public List<PlayerCharacter> getAllCharacters();
 	public PlayerCharacter createCharacter(PlayerCharacter pc);
 	public void deleteCharacter(int id);
+	public void deleteCharacterByName(String name);
 
 }

@@ -6,5 +6,6 @@ import com.improv.models.PlayerCharacter;
 
 @Repository
 public interface PlayerCharacterDao extends JpaRepository<PlayerCharacter, Integer> {
+	public void deletePlayerCharacterByName(String name);
 
 }
