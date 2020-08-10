@@ -45,6 +45,11 @@ public class SettingController {
 		settingService.createSetting(new Setting(3, "Bar"));
 		settingService.createSetting(new Setting(4, "Courthouse"));
 		settingService.createSetting(new Setting(5, "Parking Lot"));
+		settingService.createSetting(new Setting(1, "Auditorium"));
+		settingService.createSetting(new Setting(2, "Alleyway"));
+		settingService.createSetting(new Setting(3, "Park"));
+		settingService.createSetting(new Setting(4, "Playground"));
+		settingService.createSetting(new Setting(5, "Forest"));
 	}
 	
 

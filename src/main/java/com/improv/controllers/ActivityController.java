@@ -45,6 +45,11 @@ public class ActivityController {
 		activityService.createActivity(new Activity(3, "Hiding a body"));
 		activityService.createActivity(new Activity(4, "Talking politics"));
 		activityService.createActivity(new Activity(5, "Watching TV"));
+		activityService.createActivity(new Activity(1, "Working out"));
+		activityService.createActivity(new Activity(2, "Throwing a frisbee"));
+		activityService.createActivity(new Activity(3, "Walking dogs"));
+		activityService.createActivity(new Activity(4, "Running from the cops"));
+		activityService.createActivity(new Activity(5, "Practicing for a play"));
 	}
 
 }
