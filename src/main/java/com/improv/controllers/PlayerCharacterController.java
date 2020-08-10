@@ -50,6 +50,16 @@ public class PlayerCharacterController {
 		pcs.createCharacter(new PlayerCharacter(8, "Hockey Player"));
 		pcs.createCharacter(new PlayerCharacter(9, "Lawyer"));
 		pcs.createCharacter(new PlayerCharacter(10, "Gamer"));
+		pcs.createCharacter(new PlayerCharacter(11, "Vet"));
+		pcs.createCharacter(new PlayerCharacter(12, "Baseball Player"));
+		pcs.createCharacter(new PlayerCharacter(13, "Pizza Delivery Guy"));
+		pcs.createCharacter(new PlayerCharacter(14, "Cleric"));
+		pcs.createCharacter(new PlayerCharacter(15, "Rogue"));
+		pcs.createCharacter(new PlayerCharacter(16, "Werewolf"));
+		pcs.createCharacter(new PlayerCharacter(17, "Werebear"));
+		pcs.createCharacter(new PlayerCharacter(18, "Teacher"));
+		pcs.createCharacter(new PlayerCharacter(19, "Eagles Fan"));
+		pcs.createCharacter(new PlayerCharacter(20, "Steelers Fan"));
 	}
 
 }
