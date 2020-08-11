@@ -19,6 +19,11 @@ public class PlayerCharacterServiceImpl implements PlayerCharacterService {
 	public List<PlayerCharacter> getAllCharacters() {
 		return charDao.findAll();
 	}
+	
+	@Override
+	public PlayerCharacter getCharacterById(int id) {
+		return charDao.findById(id).get();
+	}
 
 	@Override
 	public PlayerCharacter createCharacter(PlayerCharacter pc) {

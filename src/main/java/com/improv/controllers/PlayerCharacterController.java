@@ -28,6 +28,11 @@ public class PlayerCharacterController {
 		return pcs.getAllCharacters();
 	}
 	
+	@GetMapping("/character/{id}")
+	public PlayerCharacter getCharacterById(@PathVariable int id) {
+		return pcs.getCharacterById(id);
+	}
+	
 	@PostMapping("/character")
 	public PlayerCharacter createCharacter(@RequestBody PlayerCharacter pc) {
 		return pcs.createCharacter(pc);
