@@ -53,7 +53,7 @@ public class PlayerCharacterController {
 		pcs.createCharacter(new PlayerCharacter(1, "Knight"));
 		pcs.createCharacter(new PlayerCharacter(2, "Wizard"));
 		pcs.createCharacter(new PlayerCharacter(3, "Librarian"));
-		pcs.createCharacter(new PlayerCharacter(4, "Cowboy"));
+		pcs.createCharacter(new PlayerCharacter(4, "Sheep Herder"));
 		pcs.createCharacter(new PlayerCharacter(5, "Fugitive"));
 		pcs.createCharacter(new PlayerCharacter(6, "Drunk"));
 		pcs.createCharacter(new PlayerCharacter(7, "Doctor"));
@@ -70,6 +70,16 @@ public class PlayerCharacterController {
 		pcs.createCharacter(new PlayerCharacter(18, "Teacher"));
 		pcs.createCharacter(new PlayerCharacter(19, "Eagles Fan"));
 		pcs.createCharacter(new PlayerCharacter(20, "Steelers Fan"));
+		pcs.createCharacter(new PlayerCharacter(21, "Rat Trapper"));
+		pcs.createCharacter(new PlayerCharacter(22, "Vacuum Salesman"));
+		pcs.createCharacter(new PlayerCharacter(23, "Talking Dog"));
+		pcs.createCharacter(new PlayerCharacter(24, "Milkman"));
+		pcs.createCharacter(new PlayerCharacter(25, "Amazon Delivery Driver"));
+		pcs.createCharacter(new PlayerCharacter(26, "Postman"));
+		pcs.createCharacter(new PlayerCharacter(27, "Suburban Housewife"));
+		pcs.createCharacter(new PlayerCharacter(28, "Necromancer"));
+		pcs.createCharacter(new PlayerCharacter(29, "Transformer"));
+		pcs.createCharacter(new PlayerCharacter(30, "Cowboy"));
 	}
 
 }
